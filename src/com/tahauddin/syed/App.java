@@ -26,6 +26,10 @@ public class App {
         System.out.println(studentTwo);
         System.out.println("Hello World");
 
+        Integer i = 50000;
+        double v = i - 50.00;
+
+        System.out.println(v);
         System.out.println("Yo Yo");
     }
 }
