@@ -27,12 +27,21 @@ public class App {
         System.out.println(studentOne);
         System.out.println(studentTwo);
         System.out.println("No No");
-
+        System.out.println("Ialskfnasf");
+        BigDecimal bg = new BigDecimal("45000000");
+        BigDecimal subtract = bg.subtract(new BigDecimal("50000.00"));
+        System.out.println(subtract);
         System.out.println("Ialskfnasf");
         BigDecimal bg = new BigDecimal("45000000");
         BigDecimal subtract = bg.subtract(new BigDecimal("50000.00"));
         System.out.println(subtract);
 
+        System.out.println("Hello World");
 
+        Integer i = 50000;
+        double v = i - 50.00;
+
+        System.out.println(v);
+        System.out.println("Yo Yo");
     }
 }
