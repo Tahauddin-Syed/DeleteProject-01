@@ -8,6 +8,12 @@ public class App {
         Student studentOne = new Student();
         Student studentTwo = new Student();
 
+        studentTwo.setName("Mohd");
+        studentTwo.setEmail("mohd@gmail.com");
+        studentTwo.setDuration("4 Months");
+        studentTwo.setCourse("Python");
+        studentTwo.setFees("45000");
+
         studentOne.setName("Syed");
         studentOne.setEmail("syed@gmail.com");
         studentOne.setCourse("java");
@@ -15,6 +21,7 @@ public class App {
         studentOne.setFees("30000");
 
         System.out.println(studentOne);
+        System.out.println(studentTwo);
 
     }
 }
