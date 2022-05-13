@@ -13,15 +13,19 @@ public class App {
         studentTwo.setDuration("4 Months");
         studentTwo.setCourse("Python");
         studentTwo.setFees("45000");
+        studentTwo.setInstituteName("ABC");
 
         studentOne.setName("Syed");
         studentOne.setEmail("syed@gmail.com");
         studentOne.setCourse("java");
         studentOne.setDuration("3 Months");
         studentOne.setFees("30000");
+        studentOne.setInstituteName("XYZ");
 
         System.out.println(studentOne);
         System.out.println(studentTwo);
+
+
 
     }
 }
