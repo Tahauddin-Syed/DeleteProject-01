@@ -1,5 +1,7 @@
 package com.tahauddin.syed;
 
+import java.math.BigDecimal;
+
 public class App {
 
     public static void main(String[] args) {
@@ -24,7 +26,12 @@ public class App {
 
         System.out.println(studentOne);
         System.out.println(studentTwo);
+        System.out.println("No No");
 
+        System.out.println("Ialskfnasf");
+        BigDecimal bg = new BigDecimal("45000000");
+        BigDecimal subtract = bg.subtract(new BigDecimal("50000.00"));
+        System.out.println(subtract);
 
 
     }
