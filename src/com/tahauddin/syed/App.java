@@ -31,8 +31,10 @@ public class App {
         BigDecimal bg = new BigDecimal("45000000");
         BigDecimal subtract = bg.subtract(new BigDecimal("50000.00"));
         System.out.println(subtract);
-
-
+        System.out.println("Ialskfnasf");
+        BigDecimal bg = new BigDecimal("45000000");
+        BigDecimal subtract = bg.subtract(new BigDecimal("50000.00"));
+        System.out.println(subtract);
 
         System.out.println("Hello World");
 
