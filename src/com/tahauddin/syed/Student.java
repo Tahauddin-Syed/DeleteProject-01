@@ -12,6 +12,8 @@ public class Student {
 
     private String duration;
 
+    private String instituteName;
+
     public String getName() {
         return name;
     }
@@ -52,6 +54,14 @@ public class Student {
         this.duration = duration;
     }
 
+    public String getInstituteName() {
+        return instituteName;
+    }
+
+    public void setInstituteName(String instituteName) {
+        this.instituteName = instituteName;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -60,6 +70,7 @@ public class Student {
                 ", course='" + course + '\'' +
                 ", fees='" + fees + '\'' +
                 ", duration='" + duration + '\'' +
+                ", instituteName='" + instituteName + '\'' +
                 '}';
     }
 }
